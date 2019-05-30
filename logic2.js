@@ -7,31 +7,41 @@
     console.log(response);
     console.log([response.features[0].geometry.coordinates[1], response.features[0].geometry.coordinates[0]]);
 
-
+    /*
     function setColor(magnitude){
 
       
         if(magnitude >= 5.0){
-            return "purple"
-        }
-        else if(magnitude < 5.0 && magnitude > 4.0){
-            return "blue"
-        }
-        else if(magnitude < 4.0 && magnitude > 3.0){
             return "red"
         }
+        else if(magnitude < 5.0 && magnitude > 4.0){
+            return "orange"
+        }
+        else if(magnitude < 4.0 && magnitude > 3.0){
+            return "yellow"
+        }
         else if(magnitude < 3.0 && magnitude > 2.0){
-          return "orange"
+          return "blue"
         }
         else if(magnitude < 2.0 && magnitude > 1.0){
-          return "yellow"
+          return "green"
         }
         else{
-            return "green"
+            return "black"
         }
         
 
-    }
+    }*/
+
+    function setColor(d) {
+      return d > 6.0 ? '#7a0177' :
+      d > 5.0 ? '#BD0026' :
+      d > 4.0 ? '#E31A1C' :
+      d > 3.0 ? '#FC4E2A' :
+      d > 2.0 ? '#FD8D3C' :
+      d > 1.0 ? '#FEB24C' :
+      '#FFEDA0';
+      }
 
     const myMap = L.map("map", {
       center: [15.5994, -28.6731],
