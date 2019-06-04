@@ -24,7 +24,7 @@ Though the entire process of creating the map, pulling the data from the USGS, c
 
 <p align="center"><em>The modular paradigm reduces scoping issues and prevents variables from accessing each other.</em></p>
 
-The ```createFeatures``` function is called at the bottom of the async function, after the data is pulled in from the USGS as a feature group.
+The ```createFeatures``` function is called at the bottom of the async function, after the data is pulled in from the USGS as a feature group. An async function was used to complete the Promise used by the D3 package to process the geoJSON coming from the USGS. An immediately invoked function wraps all of it and protects my Mapbox API key. This hardly matters, since I have no way to keep people from pulling my API key from GitHub without jeopardizing it in a config file that makes it vulnerable when truly hosted. However, it is good practice for when if I were to ever truly host a map on a site, where a gitignore can be used to hide a config file.
 
 
 # Take Away
