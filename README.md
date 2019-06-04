@@ -9,7 +9,7 @@ This experimental page combines the modular Javascript paradigm with the Leaflet
 <p align="center"><em>Map of earthquake activity for June 4, 2019, generated from the U.S. Geological Survey.</em></p>
 
 
-##Why Earthquakes
+## Why Earthquakes
 
 I have always been interested in plate tectonics. I find it extremely fascinating to watch the shifting of the most fundamental foundation of life as we know it and gauge its impact on civilization. For example, there is a new earthqake in Oklahoma every day, but these are not due to tectonic activity. One might assume this might be due to fracking. However, the USGS states that [wastewater disposal causes the majority of these earthquakes (https://www.usgs.gov/faqs/oklahoma-now-has-more-earthquakes-a-regular-basis-california-are-they-due-fracking?qt-news_science_products=0#qt-news_science_products) 90% of wastewater disposal comes from oil production, not fracking. 
 
@@ -27,6 +27,6 @@ Though the entire process of creating the map, pulling the data from the USGS, c
 The ```createFeatures``` function is called at the bottom of the async function, after the data is pulled in from the USGS as a feature group.
 
 
-#Take Away
+# Take Away
 
 I learned JavaScript before I ever touched Python. I knew that at some point I was going to need it, whether I wanted to admit that or not. JavaScript is difficult and requires lots of practice. However, it is becoming clear that JavaScript is a useful language. This experiment in visualization was difficult to achieve, and it remains incomplete. I look forward to exploring this library fully and adding improvements to the map experience. 
