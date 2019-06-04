@@ -1,8 +1,8 @@
 <https://ashleymcgee.github.io/leaflet_earthquakes/>
 
-# Weekly Tectonic Activity via Leaflet.js
+# Weekly Tectonic Activity via Mapbox And Leaflet.js
 
-This experimental page combines the modular Javascript paradigm with the Leaflet.js library. My script makes api calls to the United States Geological Survey website to pull weekly earthquake data. API calls are also made to Mapbox.com for map tile images. OpenStreet data is given credit for the geodata used to position the map.
+This experimental page combines the modular Javascript paradigm with the Leaflet.js library. My script makes API calls to the United States Geological Survey website to pull weekly earthquake data. API calls are also made to Mapbox.com for map tile images. OpenStreet data is given credit for the geodata used to position the map.
 
 ![alt text](https://github.com/AshleyMcGee/leaflet_earthquakes/blob/master/leafletmap1.png "Screen shot of my satellite view of the planet Earth depicting the magnitudes of various earthquakes. Magnitude intensity is expressed by the size of a circle marker and the color of the circle marker.")
 
