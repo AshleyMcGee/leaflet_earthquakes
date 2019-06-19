@@ -117,7 +117,7 @@
 
 
     //Get the data
-    const API_KEY = "pk.eyJ1IjoiYXNobGV5bWNnZWUiLCJhIjoiY2p3ZXpvczdwMW1ndDRicW45azY0b2EwdiJ9.fqOkJmG3F4VrEJ5Ksnhp8Q"
+    const API_KEY = "pk.eyJ1IjoiYXNobGV5bWNnZWUiLCJhIjoiY2p3aWZrZjV1MDFhMTQ1bDFkb2Y3Nnc0MSJ9.5DVEGT_j11UntINqf87VQw"
     const url = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson"
     const response = await d3.json(url)
     console.log(response);
